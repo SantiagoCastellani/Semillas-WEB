@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Diego Velázquez">
+    <meta name="description" content="Smart Agency is a one page responsive Bootstrap 4 template. This is a free open source theme, you can use our theme for any purpose, even commercially. Create amazing websites with this easy to customize template.">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
+
+    <!-- Ionic icons-->
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/logosemilla.jpg"/>
+
+    <title>Semillas WEB</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <img src="assets/img/logosemilla.jpg" class="semilla" alt="logo">
+            <h4><b>SEMILLAS WEB</b></h4>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="assets/images/menu.svg">
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Sobre Nos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonial">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="container">
+            <div class="content-center">
+                <h1 id="titulo" class="mt-5">Diseño y Desarrollo WEB</h1>
+                <p id="parrafo" class="container">"Si lo puedes soñar o imaginar, lo puedes crear" (Albus Dumbledore)</p>
+                <a href="assets/img/VID_20210828_182923642_HL.mp4" target="blanck" class="btn btn-secondary mt-4">PRESENTACION <img src="assets/images/arrow-right.svg" class="ml-2"></a> 
+            </div>
+            <div id="botones" class="content-center">
+                <button id="otoño" onclick='changeotoño()'>Otoño</button>
+                <button id="invierno" onclick="changeinvierno()">Invierno</button>
+                <button id="primavera" onclick="changeprimavera()">Primavera</button>
+                <button id="verano" onclick="changeverano()">Verano</button>
+                <h6 id="texto">(Puedes cambiar el modo visual)</h6>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container-fluid">
+            <div class="content-center">
+                <h2>He aqui algunos de los magníficos <br><b>proyectos</b><br>que hemos desarrollado</h2>
+                <p>Desde el inicio, compartiendo el diseño con clientes y haciendolos parte de la creación de su sitio.</p>
+            </div>
+            <div class="row">
+                                
+                <div class="col-md-4">
+                    <div class="portfolio-container">
+                        <div class="portfolio-details">
+                            <a href="resumen.html">
+                                <h2>Animalia</h2>
+                            </a>
+                            <a href="proyectos.html">
+                                <p>Ir al sitio</p>
+                            </a>
+                        </div>
+                        <img src="assets/img/perezoso.png" class="img-fluid" alt="Proyecto 01">
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="portfolio-container">
+                        <div class="portfolio-details">
+                            <a href="resumen.html">
+                                <h2>I love Ghibli</h2>
+                            </a>
+                            <a href="proyectos.html">
+                                <p>Ir al sitio</p>
+                            </a>
+                        </div>
+                        <img src="assets/img/mivecinototoro-k3BD--940x705@abc.jpg" class="img-fluid" alt="Proyecto 02">
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="portfolio-container">
+                        <div class="portfolio-details">
+                            <a href="resumen.html">
+                                <h2>Llanuras</h2>
+                            </a>
+                            <a href="proyectos.html">
+                                <p>Ir al sitio</p>
+                            </a>
+                        </div>
+                        <img src="assets/img/IMG_20220131_184144071.jpg" class="img-fluid" alt="Proyecto 03">
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="portfolio-container">
+                        <div class="portfolio-details">
+                            <a href="resumen.html">
+                                <h2>Escritoria</h2>
+                            </a>
+                            <a href="proyectos.html">
+                                <p>Ir al sitio</p>
+                            </a>
+                        </div>
+                        <img src="assets/img/escritores.jpg" class="img-fluid" alt="Proyecto 04">
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="portfolio-container">
+                        <div class="portfolio-details">
+                            <a href="resumen.html">
+                                <h2>Musicalandia</h2>
+                            </a>
+                            <a href="proyectos.html">
+                                <p>Ir al sitio</p>
+                            </a>
+                        </div>
+                        <img src="assets/img/musica.jpg" class="img-fluid" alt="Proyecto 05">
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="portfolio-container">
+                        <div class="portfolio-details">
+                            <a href="resumen.html">
+                                <h2>Vitaminium</h2>
+                            </a>
+                            <a href="proyectos.html">
+                                <p>Ir al sitio</p>
+                            </a>
+                        </div>
+                        <img src="assets/img/frutas.jpg" class="img-fluid" alt="Proyecto 06">
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="text-center mt-4">
+                <p class="">¿Preparado para trabajar sobre tu proyecto?</p>
+                <a href="#team" class="text-dark"><b>Conoce a nuestro equipo.</b></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="bgLightGrey">
+        <div class="container">
+            <div class="content-center">
+                <h2>¿Quienes somos?</h2>
+                <p>Somos un equipo integrado por diversos talentos y profesiones, que compartimos el apasionante mundo de la programación y el desarrollo WEB. Te ayudaremos en el camino de creación y realización de tu sitio.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="member-container">
+                        <div class="member-details">
+                            <h5>Leonardo Da Vinci</h5>
+                            <span>Director Creativo</span>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="https:www.instagram.com" target="blanck"><img src="assets/images/instagram.svg" class="img-fluid"></a>
+                                </li>
+                                <li class="list-inline-item"><a href="https:www.twitter.com" target="blanck"><img src="assets/images/twitter.svg" class="img-fluid"></a></li>
+                                <li class="list-inline-item"><a href="https:www.youtube.com" target="blanck"><img src="assets/images/youtube.svg" class="img-fluid"></a></li>
+                                <li class="list-inline-item"><a href="https:www.dribbble.com" target="blanck"><img src="assets/images/dribbble.svg" class="img-fluid"></a></li>
+                                <li class="list-inline-item"><a href="https:www.facebook.com" target="blanck"><img src="assets/images/facebook.svg" class="img-fluid"></a></li>
+                            </ul>
+                        </div>
+                        <img src="assets/img/foto1.jpg" class="img-fluid" alt="miembro 1">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="member-container">
+                        <div class="member-details">
+                            <h5>Frida Kahlo</h5>
+                            <span>Diseñadora</span>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="https:www.instagram.com" target="blanck"><img src="assets/images/instagram.svg" class="img-fluid"></a>
+                                </li>
+                                <li class="list-inline-item"><a href="https:www.twitter.com" target="blanck"><img src="assets/images/twitter.svg" class="img-fluid"></a></li>
+                                <li class="list-inline-item"><a href="https:www.youtube.com" target="blanck"><img src="assets/images/youtube.svg" class="img-fluid"></a></li>
+                                <li class="list-inline-item"><a href="https:www.dribbble.com" target="blanck"><img src="assets/images/dribbble.svg" class="img-fluid"></a></li>
+                                <li class="list-inline-item"><a href="https:www.facebook.com" target="blanck"><img src="assets/images/facebook.svg" class="img-fluid"></a></li>
+                            </ul>
+                        </div>
+                        <img src="assets/img/foto2.jpg" class="img-fluid" alt="miembro 2">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="member-container">
+                        <div class="member-details">
+                            <h5>Albert Einstein</h5>
+                            <span>Desarrollador</span>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="https:www.instagram.com" target="blanck"><img src="assets/images/instagram.svg" class="img-fluid"></a>
+                                </li>
+                                <li class="list-inline-item"><a href="https:www.twitter.com" target="blanck"><img src="assets/images/twitter.svg" class="img-fluid"></a></li>
+                                <li class="list-inline-item"><a href="https:www.youtube.com" target="blanck"><img src="assets/images/youtube.svg" class="img-fluid"></a></li>
+                                <li class="list-inline-item"><a href="https:www.dribbble.com" target="blanck"><img src="assets/images/dribbble.svg" class="img-fluid"></a></li>
+                                <li class="list-inline-item"><a href="https:www.facebook.com" target="blanck"><img src="assets/images/facebook.svg" class="img-fluid"></a></li>
+                            </ul>
+                        </div>
+                        <img src="assets/img/foto3.jpg" class="img-fluid" alt="miembro 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="divider">
+        <div class="container">
+            <div class="content-center">
+                <h2>Elegi el plan acorde a tu proyecto</h2>
+                <p>Nuestro equipo se adapta a tus necesidades y tiempos, desde la siembra de ideas, hasta el desarrollo y soporte de tu sitio.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="pricing-container">
+                        <div class="plans plan-light">
+                            <h4>Plan Inicial</h4>
+                            <h3>Proyecto y diseño</h3>
+                            <h6>(Para comenzar a darle forma a tus ideas)</h6>
+                            <ul class="mt-3">
+                                <li>Herramientas de diseño</li>
+                                <li>Trabajando junto a clientes</li>
+                                <li>Diseño general del sitio</li>
+                                <li>Proyecto listo para desarrollar</li>
+                            </ul>
+                            <a href="planes.html" class="btn btn-primary full-width mt-4">Comenzar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="pricing-container">
+                        <div class="plans plan-dark">
+                            <h4>Plan Premium</h4>
+                            <h3>Desarrollo y soporte</h3>
+                            <h6>(Para contar con tu sitio terminado y actualizado)</h6>
+                            <ul class="mt-3">
+                                <li>Desarrollo del sitio web</li>
+                                <li>Integración con Google Analytics</li>
+                                <li>Cambios y actualizaciones</li>
+                                <li>Soporte dedicado</li>
+                            </ul>
+                            <a href="planes.html" class="btn btn-alternate full-width mt-4">Comenzar</a>
+                        </div>
+                    </div>
+                </div>
+         
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial" class="divider">
+        <div class="container">
+            <div class="content-center">
+                <h2>Nuestros clientes comparten su experiencia...</h2>
+                <p>El mayor orgullo para nuestro equipo, es sentir que el trabajo realizado satisface completamente a nuestros clientes. Aqui compartimos sus opiniones y palabras...</p>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-container">
+                            <p>"Impecable. Realmente super satisfechos con el trabajo y el acompañamiento del equipo Semillas" 
+                            </p>
+                            <div class="rating">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                </ul>
+                            </div>
+                            <div class="testimonial-user">
+                                <div class="row">
+                                    <div class="col-md-3 col-3">
+                                        <img src="assets/images/member-01.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-md-9 col-9">
+                                        <h6>Clarissa Mayer</h6>
+                                        <span>Yahoo CEO</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-container">
+                            <p>"Si hay palabras para definir lo que fue el desempeño de Semillas WEB, esas son: ALTAMENTE RECOMENDABLE. Muchas gracias."</p>
+                            <div class="rating">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                </ul>
+                            </div>
+                            <div class="testimonial-user">
+                                <div class="row">
+                                    <div class="col-md-3 col-3">
+                                        <img src="assets/images/member-02.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-md-9 col-9">
+                                        <h6>Dolores Ferreira</h6>
+                                        <span>General Motors CEO</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-container">
+                            <p>"La calidad del sitio y la rapidez de trabajo superaron en grande mis expectativas"</p>
+                            <div class="rating">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                </ul>
+                            </div>
+                            <div class="testimonial-user">
+                                <div class="row">
+                                    <div class="col-md-3 col-3">
+                                        <img src="assets/images/member-03.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-md-9 col-9">
+                                        <h6>Mark Twain</h6>
+                                        <span>Volkswagen CEO</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-container">
+                            <p>"Muy bien 10"</p>
+                            <div class="rating">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                </ul>
+                            </div>
+                            <div class="testimonial-user">
+                                <div class="row">
+                                    <div class="col-md-3 col-3">
+                                        <img src="assets/img/persona5.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-md-9 col-9">
+                                        <h6>Jazmin Centurion</h6>
+                                        <span>Universidad de Chile</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-container">
+                            <p>"Gracias por haber hecho realidad nuestro sueño"</p>
+                            <div class="rating">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                                </ul>
+                            </div>
+                            <div class="testimonial-user">
+                                <div class="row">
+                                    <div class="col-md-3 col-3">
+                                        <img src="assets/img/persona4.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-md-9 col-9">
+                                        <h6>Hector Ferreyra</h6>
+                                        <span>Sky Words</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <div class="control-button">
+                        <img src="assets/images/arrow-borderless-left.svg" class="img-fluid">
+                    </div>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <div class="control-button">
+                        <img src="assets/images/arrow-borderless-right.svg" class="img-fluid">
+                    </div>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mt-4">
+                    <h2>Contacto</h2>
+                    <h3>Aqui puedes escribirnos.</h3>
+                    <p>No dudes en contactarnos. Escribe y cuentanos tus inquietudes, ideas y proyectos. Pronto recibiras nuestra respuesta. <br>(e-mail: contacto@semillasweb.com.ar)</p>
+                </div>
+                <div class="col-md-6 mt-4">
+                        <form class="row" autocomplete="off">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="nombre" placeholder="Nombre" required> 
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="apellido" placeholder="Apellido" required>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="empresa" placeholder="Nombre de la empresa o institución (opcional)">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="number" class="form-control" id="telefono" placeholder="Numero telefónico (opcional)">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" id="boton-enviar" class="btn btn-primary full-width"><b>Enviar</b></a>
+                            </div>
+                        </form>                     
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bgDark">
+        <div class="container">
+            <img src="assets/img/logosemilla.jpg" class="semilla" alt="logosemilla">
+            <ul class="list-inline">
+                <li class="list-inline-item footer-menu"><a href="#">Home</a></li>
+                <li class="list-inline-item footer-menu"><a href="#portfolio">Proyectos</a></li>
+                <li class="list-inline-item footer-menu"><a href="#team">Somos</a></li>
+                <li class="list-inline-item footer-menu"><a href="#pricing">Servicios</a></li>
+                <li class="list-inline-item footer-menu"><a href="#contact">Contacto</a></li>
+            </ul>
+            <ul class="list-inline">
+                <li class="list-inline-item vin"><a href="https:www.instagram.com" target="blanck"><img src="assets/images/instagram.svg" class="img-fluid"></a></li>
+                <li class="list-inline-item vin"><a href="https:www.twitter.com" target="blanck"><img src="assets/images/twitter.svg" class="img-fluid"></a></li>
+                <li class="list-inline-item vin"><a href="https:www.youtube.com" target="blanck"><img src="assets/images/youtube.svg" class="img-fluid"></a></li>
+                <li class="list-inline-item vin"><a href="https:www.dribbble.com" target="blanck"><img src="assets/images/dribbble.svg" class="img-fluid"></a></li>
+                <li class="list-inline-item vin"><a href="https:www.facebook.com" target="blanck"><img src="assets/images/facebook.svg" class="img-fluid"></a></li>
+            </ul>
+            <small>(Este sitio esta realizado por Santiago Castellani como ejercicio para YO PROGRAMO, Argentina Programa. Modificado a partir de: ©2020 All Rights Reserved. Created by <a href="https://themesbootstrap.com.mx/" class="font-weight-bold" target="_blank"
+                    rel="noopener">Themes Bootstrap</a>. Los datos y personas que figuran en el sitio son ficticios.)</small>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    
+    <script src="app.js"></script>
+    <script src="mensaje.js"></script>
+</body>
+
+</html>
